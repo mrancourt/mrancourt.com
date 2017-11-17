@@ -1,0 +1,27 @@
+language: node_js
+node_js:
+  - node
+cache:
+  directories:
+    - node_modules
+
+before_script:
+ - echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+ - echo -e $SSH_PRIVATE_KEY > ~/.ssh/id_rsa
+ - chmod 600 ~/.ssh/id_rsa*
+ - eval `ssh-agent -s`
+ - ssh-add ~/.ssh/id_rsa
+
+script:
+  - npm run build
+  - scripts/deploy.sh
+
+branches:
+  only:
+    - v1
+    - master
+
+notifications:
+  email:
+    on_success: change
+    on_failure: always

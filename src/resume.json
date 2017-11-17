@@ -1,0 +1,166 @@
+
+{
+  "basics":{
+    "name":"Martin Rancourt",
+    "label":"Developer",
+    "email":"martin.rancourt3@usherbrooke.ca",
+    "phone":"418 222-1617",
+    "website":"mrancourt.com",
+    "location":{
+      "city":"Sherbrooke",
+      "countryCode":"CA",
+      "region":"Quebec"
+    },
+    "profiles":[
+      {
+        "network":"LinkedIn",
+        "url":"linkedin.com/in/mrancourt"
+      },
+      {
+        "network":"Github",
+        "url":"github.com/mrancourt"
+      }
+    ]
+  },
+  "work":[
+    {
+      "company":"Tesla",
+      "position":"Software Engineer Intern",
+      "location": "Palo Alto, California",
+      "website":"tesla.com",
+      "dates": [
+        {
+          "startDate":"2017-05",
+          "endDate":"2017-08"
+        },
+        {
+          "startDate":"2016-09",
+          "endDate":"2016-12"
+        }
+      ],
+      "summary":"Maintain and enhance Tesla web services as part of the Connected Systems team.",
+      "highlights":[
+        "Responsible for migrating internal facing tool to a single page application using unified JavaScript dependencies.",
+        "Responsible for upgrading the internal role and policies management application to Tesla corporate design using React components."
+      ]
+    },
+    {
+      "company":"National Bank of Canada",
+      "position":"Mobile Developer Intern",
+      "location": "Montreal, Quebec, Canada",
+      "website":"bnc.ca",
+      "dates": [
+        {
+          "startDate":"2016-01",
+          "endDate":"2016-04"
+        },
+        {
+          "startDate":"2015-05",
+          "endDate":"2015-08"
+        }
+      ],
+      "summary":"Maintain and enhance National Bank mobile banking application.",
+      "highlights":[
+        "Design and develop mobile applications frontend features using HTML5, Less and Javascript (AngularJS & Apache Cordova).",
+        "Develop backend adapters in Java and Javascript using IBM Worklight platform.",
+        "Actively participate in the business needs analysis and the implementation of new application functionality in a progressive manner using agile methodologies.",
+        "Promote collaborative culture while contributing to the first IT internal hackathon."
+      ]
+    },
+    {
+      "company":"Ubéo solutions web",
+      "position":"Web Developer",
+      "location": "Saint-Georges, Quebec, Canada",
+      "website":"ubeo.ca",
+      "startDate":"2012-05",
+      "endDate":"2014-09",
+      "summary":"Build more than 50 custom websites including several online shops, transactional and corporate websites.",
+      "highlights":[
+        "Implement a contest management platform used across Quebec that generated hundreds of thousands of coupons being printed and distributed for multiple contests.",
+        "Provide a secure administration platform for the client to analyze contests results.",
+        "Create multiple modules for in-house CMS platforms and integrate them within the frontend layer.",
+        "Design, create, manage and optimize MySQL databases."
+      ]
+    },
+    {
+      "company":"Akova inc.",
+      "position":"Web Developer Intern",
+      "location": "Quebec city, Quebec, Canada",
+      "website":"akova.ca",
+      "startDate":"2011-05",
+      "endDate":"2011-08",
+      "summary":"Participate in the development of multiple websites using jQuery and PHP."
+    }
+  ],
+  "education":[
+    {
+      "institution":"Université de Sherbrooke",
+      "area":"Bachelor of Science in Computer Science",
+      "studyType":"Concentration in Software Engineering",
+      "inProgress": true,
+      "startDate":"2014-08",
+      "endDate":"2017-12"
+    },
+    {
+      "institution":"College François-Xavier-Garneau",
+      "area":"College Diploma in Computer Science",
+      "inProgress": false,
+      "startDate":"2009-08",
+      "endDate":"2012-12"
+    }
+  ],
+
+  "skills":[
+    {
+      "name": "Developement",
+      "keywords": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Ruby",
+        "Python",
+        "C#"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "MySQL",
+        "MongoDB",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Technical Tools",
+      "keywords": [
+        "JetBrains Suite",
+        "Git",
+        "SVN",
+        "Eclipse",
+        "Xcode",
+        "Xamarin Studio"
+      ]
+    }
+  ],
+  "languages":[
+    {
+      "language":"French",
+      "fluency":"Native"
+    },
+    {
+      "language":"English",
+      "fluency":"Professional working proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "keywords":[
+        "Snowboarding",
+        "Skateboarding",
+        "Climbing",
+        "Traveling",
+        "Hackathons"
+      ]
+    }
+  ]
+}
