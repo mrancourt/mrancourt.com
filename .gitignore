@@ -68,6 +68,9 @@ typings/
 # production
 /build
 
+# firebase
+.firebase/
+
 # misc
 .DS_Store
 .env.local

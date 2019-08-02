@@ -4,7 +4,7 @@ import './App.css';
 import resume from './resume.json'
 
 import SyntaxHighlighter from 'react-syntax-highlighter';
-import { monokaiSublime } from 'react-syntax-highlighter/styles/hljs';
+import { monokaiSublime } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 class App extends Component {
 
